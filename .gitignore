@@ -1,0 +1,8 @@
+# Password Vault (keep local data private!)
+# To use your own real credentials, create my_vault.json or keep data.json untracked:
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.vscode/
+.idea/

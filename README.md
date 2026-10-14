@@ -1,68 +1,43 @@
-\# 🔑 Password Manager with Tkinter  
+# 🔐 Modern Desktop Password Manager GUI
+### *Python & Tkinter ile Geliştirilmiş Modern Masaüstü Şifre Yöneticisi*
 
-\_A simple local password manager built with Python \& Tkinter\_
-
-
-
----
-
-
-
-\## 📌 Description (English)
-
-
-
-This project is a simple \*\*Password Manager application\*\* built with Python’s `tkinter` library.  
-
-
-
-\### ✨ Features
-
-\- 🔒 \*\*Password Generator\*\* → Creates secure random passwords with letters, numbers, and symbols.  
-
-\- 💾 \*\*Save Accounts\*\* → Stores website, username/email, and password into a local `JSON` file.  
-
-\- 🔍 \*\*Search Functionality\*\* → Quickly find saved credentials for a given website.  
-
-\- 📋 \*\*Clipboard Support\*\* → Automatically copies generated password to clipboard for quick use.  
-
-\- 🖥️ \*\*User-Friendly UI\*\* → Built with `tkinter`, providing a simple and organized graphical interface.  
-
-
-
-This app can be used as a lightweight password manager for \*\*practice or personal use\*\*, without relying on external tools.  
-
-
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![GUI](https://img.shields.io/badge/GUI-Tkinter-brightgreen)](https://docs.python.org/3/library/tkinter.html)
+[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 ---
 
+## 📌 Proje Özeti / Overview
 
+**[TR]**  
+Kullanıcıların web siteleri ve hesapları için güçlü, rastgele ve güvenli şifreler üretmesini, bunları yerel olarak depolamasını ve arama yaparak tek tıkla panoya kopyalamasını sağlayan modern koyu temalı masaüstü uygulamasıdır.
 
-\## 📌 Proje Açıklaması (Türkçe)
-
-
-
-Bu proje, Python’un `tkinter` kütüphanesi kullanılarak geliştirilmiş basit bir \*\*Parola Yöneticisi uygulamasıdır\*\*.  
-
-
-
-\### ✨ Özellikler
-
-\- 🔒 \*\*Parola Üretici\*\* → Harf, rakam ve sembollerden oluşan güvenli rastgele şifreler üretir.  
-
-\- 💾 \*\*Hesap Kaydetme\*\* → Web sitesi, kullanıcı adı/e-posta ve parolayı yerel bir `JSON` dosyasında saklar.  
-
-\- 🔍 \*\*Arama Özelliği\*\* → Girilen web sitesine ait kayıtlı bilgileri kolayca bulur.  
-
-\- 📋 \*\*Panoya Kopyalama\*\* → Üretilen şifreyi otomatik olarak panoya kopyalar.  
-
-\- 🖥️ \*\*Kullanıcı Dostu Arayüz\*\* → `tkinter` ile hazırlanmış düzenli ve kolay kullanımlı grafik arayüz.  
-
-
-
-Bu uygulama, pratik yapmak veya kişisel kullanım için hafif bir şifre yöneticisi olarak kullanılabilir.  
-
-
+**[EN]**  
+A sleek, modern dark-themed desktop password management GUI built with Python and Tkinter. Enables users to generate cryptographically strong, random passwords, securely store them in local JSON vaults, and retrieve/copy credentials to clipboard with instant lookup.
 
 ---
 
+## 🚀 Özellikler / Key Features
+
+- **🎲 Kriptografik Şifre Üreteci:** Büyük harf, küçük harf, rakam ve özel sembollerden oluşan rastgele güçlü şifre kombinasyonu.
+- **📋 Otomatik Pano Kopyalama (Pyperclip):** Üretilen veya aranan şifre anında panoya (clipboard) kopyalanır.
+- **🔍 Anlık Arama:** Kayıtlı web siteleri arasında hızlı arama ve kullanıcı detaylarını görüntüleme.
+- **🎨 Modern Dark UI:** Slate koyu paleti ile modern ve göz yormayan arayüz tasarımı.
+
+---
+
+## 💻 Kurulum & Çalıştırma / Quickstart
+
+```bash
+pip install pyperclip
+python main.py
+```
+
+---
+
+## 👨‍💻 Geliştirici / Author
+
+**Ahmet Şafak Şenel**  
+- **GitHub:** [@safaksenel](https://github.com/safaksenel)  
+- **LinkedIn:** [Ahmet Şafak Şenel](https://www.linkedin.com/in/%C5%9Fafak-%C5%9Fenel-70a633319/)  
+- **Portfolio:** [safaksenel.dev](https://github.com/safaksenel/portfolio)  
